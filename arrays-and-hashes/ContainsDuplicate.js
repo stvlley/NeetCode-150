@@ -5,6 +5,7 @@ let nums = [1,2,3,1]
 var containsDuplicate = function(nums) {
     // store values in hashtable
     const obj = {};
+    nums = nums.sort()
 
     for (let i = 0; i <nums.length; i++) {
         if (obj[nums[i]]) {
