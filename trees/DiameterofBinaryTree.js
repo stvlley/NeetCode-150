@@ -20,4 +20,4 @@
     const right = diameterOfBinaryTree(root.right);
   
     return Math.max(center, left, right);
-  };
+  }
